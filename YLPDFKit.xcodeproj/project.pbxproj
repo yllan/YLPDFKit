@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85505174134CB1D600EB7FEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85505173134CB1D600EB7FEB /* Cocoa.framework */; };
+		8550517E134CB1D700EB7FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8550517C134CB1D700EB7FEB /* InfoPlist.strings */; };
+		85505186134CB1D700EB7FEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85505173134CB1D600EB7FEB /* Cocoa.framework */; };
+		85505189134CB1D700EB7FEB /* YLPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85505170134CB1D600EB7FEB /* YLPDFKit.framework */; };
+		8550518F134CB1D700EB7FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8550518D134CB1D700EB7FEB /* InfoPlist.strings */; };
+		85505192134CB1D700EB7FEB /* YLPDFKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 85505191134CB1D700EB7FEB /* YLPDFKitTests.h */; };
+		85505194134CB1D700EB7FEB /* YLPDFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85505193134CB1D700EB7FEB /* YLPDFKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85505187134CB1D700EB7FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85505166134CB1D600EB7FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8550516F134CB1D600EB7FEB;
+			remoteInfo = YLPDFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85505170134CB1D600EB7FEB /* YLPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85505173134CB1D600EB7FEB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		85505176134CB1D600EB7FEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		85505177134CB1D600EB7FEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		85505178134CB1D600EB7FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8550517B134CB1D700EB7FEB /* YLPDFKit-Info.plist */ = {isa = PBXFileReference; path = "YLPDFKit-Info.plist"; sourceTree = "<group>"; };
+		8550517D134CB1D700EB7FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8550517F134CB1D700EB7FEB /* YLPDFKit-Prefix.pch */ = {isa = PBXFileReference; path = "YLPDFKit-Prefix.pch"; sourceTree = "<group>"; };
+		85505185134CB1D700EB7FEB /* YLPDFKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPDFKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8550518C134CB1D700EB7FEB /* YLPDFKitTests-Info.plist */ = {isa = PBXFileReference; path = "YLPDFKitTests-Info.plist"; sourceTree = "<group>"; };
+		8550518E134CB1D700EB7FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85505190134CB1D700EB7FEB /* YLPDFKitTests-Prefix.pch */ = {isa = PBXFileReference; path = "YLPDFKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		85505191134CB1D700EB7FEB /* YLPDFKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPDFKitTests.h; sourceTree = "<group>"; };
+		85505193134CB1D700EB7FEB /* YLPDFKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPDFKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8550516C134CB1D600EB7FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85505174134CB1D600EB7FEB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85505181134CB1D700EB7FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85505186134CB1D700EB7FEB /* Cocoa.framework in Frameworks */,
+				85505189134CB1D700EB7FEB /* YLPDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85505164134CB1D600EB7FEB = {
+			isa = PBXGroup;
+			children = (
+				85505179134CB1D600EB7FEB /* YLPDFKit */,
+				8550518A134CB1D700EB7FEB /* YLPDFKitTests */,
+				85505172134CB1D600EB7FEB /* Frameworks */,
+				85505171134CB1D600EB7FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85505171134CB1D600EB7FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85505170134CB1D600EB7FEB /* YLPDFKit.framework */,
+				85505185134CB1D700EB7FEB /* YLPDFKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85505172134CB1D600EB7FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85505173134CB1D600EB7FEB /* Cocoa.framework */,
+				85505175134CB1D600EB7FEB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85505175134CB1D600EB7FEB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85505176134CB1D600EB7FEB /* AppKit.framework */,
+				85505177134CB1D600EB7FEB /* CoreData.framework */,
+				85505178134CB1D600EB7FEB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		85505179134CB1D600EB7FEB /* YLPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				8550517A134CB1D700EB7FEB /* Supporting Files */,
+			);
+			path = YLPDFKit;
+			sourceTree = "<group>";
+		};
+		8550517A134CB1D700EB7FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8550517B134CB1D700EB7FEB /* YLPDFKit-Info.plist */,
+				8550517C134CB1D700EB7FEB /* InfoPlist.strings */,
+				8550517F134CB1D700EB7FEB /* YLPDFKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8550518A134CB1D700EB7FEB /* YLPDFKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				85505191134CB1D700EB7FEB /* YLPDFKitTests.h */,
+				85505193134CB1D700EB7FEB /* YLPDFKitTests.m */,
+				8550518B134CB1D700EB7FEB /* Supporting Files */,
+			);
+			path = YLPDFKitTests;
+			sourceTree = "<group>";
+		};
+		8550518B134CB1D700EB7FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8550518C134CB1D700EB7FEB /* YLPDFKitTests-Info.plist */,
+				8550518D134CB1D700EB7FEB /* InfoPlist.strings */,
+				85505190134CB1D700EB7FEB /* YLPDFKitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8550516D134CB1D600EB7FEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8550516F134CB1D600EB7FEB /* YLPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85505197134CB1D700EB7FEB /* Build configuration list for PBXNativeTarget "YLPDFKit" */;
+			buildPhases = (
+				8550516B134CB1D600EB7FEB /* Sources */,
+				8550516C134CB1D600EB7FEB /* Frameworks */,
+				8550516D134CB1D600EB7FEB /* Headers */,
+				8550516E134CB1D600EB7FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLPDFKit;
+			productName = YLPDFKit;
+			productReference = 85505170134CB1D600EB7FEB /* YLPDFKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85505184134CB1D700EB7FEB /* YLPDFKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8550519A134CB1D700EB7FEB /* Build configuration list for PBXNativeTarget "YLPDFKitTests" */;
+			buildPhases = (
+				85505180134CB1D700EB7FEB /* Sources */,
+				85505181134CB1D700EB7FEB /* Frameworks */,
+				85505182134CB1D700EB7FEB /* Resources */,
+				85505183134CB1D700EB7FEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85505188134CB1D700EB7FEB /* PBXTargetDependency */,
+			);
+			name = YLPDFKitTests;
+			productName = YLPDFKitTests;
+			productReference = 85505185134CB1D700EB7FEB /* YLPDFKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85505166134CB1D600EB7FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = yllan.org;
+			};
+			buildConfigurationList = 85505169134CB1D600EB7FEB /* Build configuration list for PBXProject "YLPDFKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85505164134CB1D600EB7FEB;
+			productRefGroup = 85505171134CB1D600EB7FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8550516F134CB1D600EB7FEB /* YLPDFKit */,
+				85505184134CB1D700EB7FEB /* YLPDFKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8550516E134CB1D600EB7FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8550517E134CB1D700EB7FEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85505182134CB1D700EB7FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8550518F134CB1D700EB7FEB /* InfoPlist.strings in Resources */,
+				85505192134CB1D700EB7FEB /* YLPDFKitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85505183134CB1D700EB7FEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8550516B134CB1D600EB7FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85505180134CB1D700EB7FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85505194134CB1D700EB7FEB /* YLPDFKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85505188134CB1D700EB7FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8550516F134CB1D600EB7FEB /* YLPDFKit */;
+			targetProxy = 85505187134CB1D700EB7FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8550517C134CB1D700EB7FEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8550517D134CB1D700EB7FEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8550518D134CB1D700EB7FEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8550518E134CB1D700EB7FEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85505195134CB1D700EB7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		85505196134CB1D700EB7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		85505198134CB1D700EB7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLPDFKit/YLPDFKit-Prefix.pch";
+				INFOPLIST_FILE = "YLPDFKit/YLPDFKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		85505199134CB1D700EB7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLPDFKit/YLPDFKit-Prefix.pch";
+				INFOPLIST_FILE = "YLPDFKit/YLPDFKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8550519B134CB1D700EB7FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLPDFKitTests/YLPDFKitTests-Prefix.pch";
+				INFOPLIST_FILE = "YLPDFKitTests/YLPDFKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8550519C134CB1D700EB7FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLPDFKitTests/YLPDFKitTests-Prefix.pch";
+				INFOPLIST_FILE = "YLPDFKitTests/YLPDFKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85505169134CB1D600EB7FEB /* Build configuration list for PBXProject "YLPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85505195134CB1D700EB7FEB /* Debug */,
+				85505196134CB1D700EB7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85505197134CB1D700EB7FEB /* Build configuration list for PBXNativeTarget "YLPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85505198134CB1D700EB7FEB /* Debug */,
+				85505199134CB1D700EB7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8550519A134CB1D700EB7FEB /* Build configuration list for PBXNativeTarget "YLPDFKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8550519B134CB1D700EB7FEB /* Debug */,
+				8550519C134CB1D700EB7FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85505166134CB1D600EB7FEB /* Project object */;
+}
