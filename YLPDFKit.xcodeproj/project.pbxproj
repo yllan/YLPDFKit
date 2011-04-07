@@ -14,6 +14,15 @@
 		8550518F134CB1D700EB7FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8550518D134CB1D700EB7FEB /* InfoPlist.strings */; };
 		85505192134CB1D700EB7FEB /* YLPDFKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 85505191134CB1D700EB7FEB /* YLPDFKitTests.h */; };
 		85505194134CB1D700EB7FEB /* YLPDFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85505193134CB1D700EB7FEB /* YLPDFKitTests.m */; };
+		85F0E8FC134D868300E6EF74 /* YLPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0E8F3134D868300E6EF74 /* YLPDFDocument.h */; };
+		85F0E8FD134D868300E6EF74 /* YLPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0E8F4134D868300E6EF74 /* YLPDFDocument.m */; };
+		85F0E8FE134D868300E6EF74 /* YLPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0E8F5134D868300E6EF74 /* YLPDFKit.h */; };
+		85F0E8FF134D868300E6EF74 /* YLPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0E8F6134D868300E6EF74 /* YLPDFPage.h */; };
+		85F0E900134D868300E6EF74 /* YLPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0E8F7134D868300E6EF74 /* YLPDFPage.m */; };
+		85F0E901134D868300E6EF74 /* YLPDFStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0E8F8134D868300E6EF74 /* YLPDFStream.h */; };
+		85F0E902134D868300E6EF74 /* YLPDFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0E8F9134D868300E6EF74 /* YLPDFStream.m */; };
+		85F0E903134D868300E6EF74 /* YLPDFUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0E8FA134D868300E6EF74 /* YLPDFUtil.h */; };
+		85F0E904134D868300E6EF74 /* YLPDFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0E8FB134D868300E6EF74 /* YLPDFUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +41,24 @@
 		85505176134CB1D600EB7FEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		85505177134CB1D600EB7FEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		85505178134CB1D600EB7FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8550517B134CB1D700EB7FEB /* YLPDFKit-Info.plist */ = {isa = PBXFileReference; path = "YLPDFKit-Info.plist"; sourceTree = "<group>"; };
+		8550517B134CB1D700EB7FEB /* YLPDFKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YLPDFKit-Info.plist"; sourceTree = "<group>"; };
 		8550517D134CB1D700EB7FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8550517F134CB1D700EB7FEB /* YLPDFKit-Prefix.pch */ = {isa = PBXFileReference; path = "YLPDFKit-Prefix.pch"; sourceTree = "<group>"; };
+		8550517F134CB1D700EB7FEB /* YLPDFKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLPDFKit-Prefix.pch"; sourceTree = "<group>"; };
 		85505185134CB1D700EB7FEB /* YLPDFKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPDFKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8550518C134CB1D700EB7FEB /* YLPDFKitTests-Info.plist */ = {isa = PBXFileReference; path = "YLPDFKitTests-Info.plist"; sourceTree = "<group>"; };
+		8550518C134CB1D700EB7FEB /* YLPDFKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YLPDFKitTests-Info.plist"; sourceTree = "<group>"; };
 		8550518E134CB1D700EB7FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		85505190134CB1D700EB7FEB /* YLPDFKitTests-Prefix.pch */ = {isa = PBXFileReference; path = "YLPDFKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		85505190134CB1D700EB7FEB /* YLPDFKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLPDFKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		85505191134CB1D700EB7FEB /* YLPDFKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPDFKitTests.h; sourceTree = "<group>"; };
 		85505193134CB1D700EB7FEB /* YLPDFKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPDFKitTests.m; sourceTree = "<group>"; };
+		85F0E8F3134D868300E6EF74 /* YLPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPDFDocument.h; sourceTree = "<group>"; };
+		85F0E8F4134D868300E6EF74 /* YLPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPDFDocument.m; sourceTree = "<group>"; };
+		85F0E8F5134D868300E6EF74 /* YLPDFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPDFKit.h; sourceTree = "<group>"; };
+		85F0E8F6134D868300E6EF74 /* YLPDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPDFPage.h; sourceTree = "<group>"; };
+		85F0E8F7134D868300E6EF74 /* YLPDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPDFPage.m; sourceTree = "<group>"; };
+		85F0E8F8134D868300E6EF74 /* YLPDFStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPDFStream.h; sourceTree = "<group>"; };
+		85F0E8F9134D868300E6EF74 /* YLPDFStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPDFStream.m; sourceTree = "<group>"; };
+		85F0E8FA134D868300E6EF74 /* YLPDFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPDFUtil.h; sourceTree = "<group>"; };
+		85F0E8FB134D868300E6EF74 /* YLPDFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPDFUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,15 @@
 		85505179134CB1D600EB7FEB /* YLPDFKit */ = {
 			isa = PBXGroup;
 			children = (
+				85F0E8F3134D868300E6EF74 /* YLPDFDocument.h */,
+				85F0E8F4134D868300E6EF74 /* YLPDFDocument.m */,
+				85F0E8F5134D868300E6EF74 /* YLPDFKit.h */,
+				85F0E8F6134D868300E6EF74 /* YLPDFPage.h */,
+				85F0E8F7134D868300E6EF74 /* YLPDFPage.m */,
+				85F0E8F8134D868300E6EF74 /* YLPDFStream.h */,
+				85F0E8F9134D868300E6EF74 /* YLPDFStream.m */,
+				85F0E8FA134D868300E6EF74 /* YLPDFUtil.h */,
+				85F0E8FB134D868300E6EF74 /* YLPDFUtil.m */,
 				8550517A134CB1D700EB7FEB /* Supporting Files */,
 			);
 			path = YLPDFKit;
@@ -147,6 +174,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F0E8FC134D868300E6EF74 /* YLPDFDocument.h in Headers */,
+				85F0E8FE134D868300E6EF74 /* YLPDFKit.h in Headers */,
+				85F0E8FF134D868300E6EF74 /* YLPDFPage.h in Headers */,
+				85F0E901134D868300E6EF74 /* YLPDFStream.h in Headers */,
+				85F0E903134D868300E6EF74 /* YLPDFUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F0E8FD134D868300E6EF74 /* YLPDFDocument.m in Sources */,
+				85F0E900134D868300E6EF74 /* YLPDFPage.m in Sources */,
+				85F0E902134D868300E6EF74 /* YLPDFStream.m in Sources */,
+				85F0E904134D868300E6EF74 /* YLPDFUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +461,7 @@
 				85505199134CB1D700EB7FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8550519A134CB1D700EB7FEB /* Build configuration list for PBXNativeTarget "YLPDFKitTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +470,7 @@
 				8550519C134CB1D700EB7FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -27,7 +27,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in YLPDFKitTests");
+//    STFail(@"Unit tests are not implemented yet in YLPDFKitTests");
 }
 
 @end
